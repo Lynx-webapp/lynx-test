@@ -1,0 +1,41 @@
+{
+  "name": "xelies-server",
+  "version": "1.0.0",
+  "description": "Speeker backend nodejs",
+  "main": "./lib/router.js",
+  "type": "commonjs",
+  "scripts": {
+    "nodemon": "nodemon .",
+    "start": "node .",
+    "dev": "ts-node-dev --respawn --pretty --transpile-only",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/speak-dev/xelies-server.git"
+  },
+  "author": "punchnox",
+  "license": "GNU",
+  "bugs": {
+    "url": "https://github.com/speak-dev/xelies-server/issues"
+  },
+  "homepage": "https://github.com/speak-dev/xelies-server#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-microservice-starter": "^0.7.2",
+    "flakeid": "^1.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "mailgun-js": "^0.22.0",
+    "mongoose": "^5.12.13"
+  },
+  "devDependencies": {
+    "@types/express": "4.17.12",
+    "nodemon": "^2.0.7",
+    "ts-node-dev": "^1.1.6",
+    "tslint": "6.1.3",
+    "typescript": "4.3.2"
+  }
+}

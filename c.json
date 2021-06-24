@@ -1,0 +1,6 @@
+{
+    "MONGO": "mongodb+srv://lynxapp:QngQ4Oms9NLfs0T9@cluster0.9u5ne.mongodb.net/lynxapp-web?retryWrites=true&w=majority",
+    "SECRET": "",
+    "MAILGUN": "",
+    "STMP_DOMAINE": ""
+}
