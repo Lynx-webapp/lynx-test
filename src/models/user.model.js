@@ -34,10 +34,6 @@ const mongoose = require('mongoose'),
             default: Date.now(),
             type: Date,
             required: true
-        },
-        referral: {
-            members: Array,
-            code: String
         }
     }, {
         versionKey: false
