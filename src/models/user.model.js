@@ -15,6 +15,11 @@ const mongoose = require('mongoose'),
             type: String,
             required: true
         },
+        id: {
+           type: String,
+           unique: true,
+           required: true
+        },
         password: {
             type: String,
             required: true
