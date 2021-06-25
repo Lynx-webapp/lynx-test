@@ -1,10 +1,10 @@
 const router = require('express').Router()
 
 router.route('/login').post(
-    require('./login')
+    require('./login.js')
 )
 router.route('/register').post(
-    require('./register')
+    require('./register.js')
 )
 
 module.exports = router
