@@ -3,9 +3,10 @@ Joi.objectId = require('joi-objectid')(Joi);
 const mongoose = require('mongoose');
 const users = require('./routes/users');
 const express = require('express');
+const c = require('../../../c.json')
 const app = express();
 
-mongoose.connect('mongodb+srv://lynxapp:QngQ4Oms9NLfs0T9@cluster0.9u5ne.mongodb.net/lynxapp-web?retryWrites=true&w=majority')
+mongoose.connect(c.MONGO)
     .then(() => console.log('Now connected to MongoDB!'))
     .catch(err => console.error('Something went wrong', err));
 
